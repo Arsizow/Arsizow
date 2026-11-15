@@ -44,7 +44,7 @@ jobs:
             GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         # Use --username and put your user name
         run: |
-          python generator.py --Arsizow
+          python generator.py --username Arsizow
 
       - name: Update profile card
         run: |
