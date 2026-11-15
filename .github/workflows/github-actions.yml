@@ -34,7 +34,7 @@ jobs:
       - name: Generate SVG
         working-directory: generator
         run: |
-          python generator.py --username arsizow
+          python generator.py --username Arsizow
 
       - name: Update profile card
         run: |
